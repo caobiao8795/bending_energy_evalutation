@@ -10,7 +10,8 @@ This package, corresponding to the paper "______________________________________
 
 Matlab packages:
 [stlread](https://www.mathworks.com/matlabcentral/fileexchange/22409-stl-file-reader?s_tid=srchtitle) and
-[Curvature Estimationl On triangle mesh ](https://www.mathworks.com/matlabcentral/fileexchange/47134-curvature-estimationl-on-triangle-mesh?s_tid=srchtitle)
+[Curvature Estimationl On triangle mesh ](https://www.mathworks.com/matlabcentral/fileexchange/47134-curvature-estimationl-on-triangle-mesh?s_tid=srchtitle). 
+Additionally, small correction had been made for function `CalcFaceNormals`, where line15:`e1=FV.vertices(FV.faces(:,1),:)-FV.vertices(FV.faces(:,3),:);` had been changed to `e1=FV.vertices(FV.faces(:,3),:)-FV.vertices(FV.faces(:,1),:);` for correctly calculation of face normals.
 
 ### Reference
 1.  Original Helfrich bending energy model: [W. Helfrich, Elastic Properties of Lipid Bilayers: Theory and Possible Experiments. 28, 693-703 (1973)](https://doi.org/10.1515/znc-1973-11-1209).
