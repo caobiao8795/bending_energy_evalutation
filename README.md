@@ -2,7 +2,7 @@
 
 ### Package description
 
-This package, corresponding to the paper "______________________________________________________________", provide the algorithm to evaluate surface bending free energy of  meshes reconstructed from 3D confocal microscopic images according to a minimal discrete Helfrich model.
+This package, corresponding to the paper "Programmed cell death control and orchestrated removal of damaged muscle fiber via synchronized action of macrophages", provide the algorithm to evaluate surface bending free energy of  meshes reconstructed from 3D confocal microscopic images according to a minimal discrete Helfrich model.
 1.  `EvaluationBendingEnergy`, workflow of calculating principal and mean curvature on triangular mesh vertices, calculating surface bending energy density and integration of surface bending free energy.
 2.  `IntegralBendingEnergy`, custom function for integration of surface bending free energy on vertices by barycentric tesselllation of triangular areas.
 
@@ -20,4 +20,4 @@ Additionally, small correction had been made for function `CalcFaceNormals` in p
 4.  Matlab package source publication on estimating principal curvatures: [Y. Ben Shabat, A. Fischer, Design of Porous Micro-Structures Using Curvature Analysis for Additive-Manufacturing. Procedia CIRP 36, 279-284 (2015)](https://doi.org/10.1016/j.procir.2015.01.057).
 
 ### Citation
-If you use this work, consider citing our [publication](null):___________________________________________________________________________
+If you use this work, consider citing our [publication](null):Programmed cell death control and orchestrated removal of damaged muscle fiber via synchronized action of macrophages
