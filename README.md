@@ -20,4 +20,4 @@ Additionally, small correction had been made for function `CalcFaceNormals` in p
 4.  Matlab package source publication on estimating principal curvatures: [Y. Ben Shabat, A. Fischer, Design of Porous Micro-Structures Using Curvature Analysis for Additive-Manufacturing. Procedia CIRP 36, 279-284 (2015)](https://doi.org/10.1016/j.procir.2015.01.057).
 
 ### Citation
-If you use this work, consider citing our [publication](null):Programmed cell death control and orchestrated removal of damaged muscle fiber via synchronized action of macrophages
+If you use this work, consider citing our [publication](null): "Programmed cell death control and orchestrated removal of damaged muscle fiber via synchronized action of macrophages"
