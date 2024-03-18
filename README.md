@@ -13,7 +13,7 @@ Matlab packages:
 [Curvature Estimationl On triangle mesh ](https://www.mathworks.com/matlabcentral/fileexchange/47134-curvature-estimationl-on-triangle-mesh?s_tid=srchtitle). 
 Additionally, small correction had been made for function `CalcFaceNormals` in package [Curvature Estimationl On triangle mesh ](https://www.mathworks.com/matlabcentral/fileexchange/47134-curvature-estimationl-on-triangle-mesh?s_tid=srchtitle), where line14:`e0=FV.vertices(FV.faces(:,3),:)-FV.vertices(FV.faces(:,2),:);` had been changed to `e0=FV.vertices(FV.faces(:,2),:)-FV.vertices(FV.faces(:,3),:);` for correctly calculation of face normals in our case.
 
-### Reference
+### References
 1.  Original Helfrich bending energy model: [W. Helfrich, Elastic Properties of Lipid Bilayers: Theory and Possible Experiments. 28, 693-703 (1973)](https://doi.org/10.1515/znc-1973-11-1209).
 2.  Minimal discrete Helfrich model: [X. Bian, S. Litvinov, P. Koumoutsakos, Bending models of lipid bilayer membranes: Spontaneous curvature and area-difference elasticity. Computer Methods in Applied Mechanics and Engineering 359, 112758 (2020)](https://doi.org/10.1016/j.cma.2019.112758).
 3.  Methods of estimating principal curvatures of mesh vertices: [S. Rusinkiewicz, in Symposium on 3D Data Processing, Visualization, and Transmission. (2004)](https://gfx.cs.princeton.edu/pubs/Rusinkiewicz_2004_ECA/index.php).
