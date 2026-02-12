@@ -2,9 +2,16 @@
 
 ### Package description
 
-This package, corresponding to the paper "Programmed cell death control and orchestrated removal of damaged muscle fiber via synchronized action of macrophages", provides the algorithm for evaluating surface bending free energy of  meshes reconstructed from 3D confocal microscopic images based on a minimal discrete Helfrich model.
+This package, corresponding to the paper "A Regenerative Capsule Constructed by ahnak+ Macrophages Guides Silent Muscle Repair", provides the algorithm for evaluating surface bending free energy of  meshes reconstructed from 3D confocal microscopic images based on a minimal discrete Helfrich model.
 1.  `EvaluationBendingEnergy`, workflow involving calculating principal and mean curvature on triangular mesh vertices, computing surface bending energy density, and integrating surface bending free energy.
 2.  `IntegralBendingEnergy`, custom function for integrating surface bending free energy on vertices using barycentric tesselllation of triangular areas.
+
+### System requirments
+This package requires only a standard computer with enough RAM to support the in-memory operations.
+This package was tested on Matlab_2022b.
+
+### Installation guide
+Open the MATLAB source file directly in MATLAB (version 2022b or later).
 
 ### Dependencies
 
