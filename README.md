@@ -8,7 +8,7 @@ This package, corresponding to the paper "A Regenerative Capsule Constructed by 
 
 ### System requirments
 This package requires only a standard computer with enough RAM to support the in-memory operations.
-This package was tested on Matlab_2022b.
+This package was tested in Matlab_2022b.
 
 ### Installation guide
 Open the MATLAB source file directly in MATLAB (version 2022b or later).
